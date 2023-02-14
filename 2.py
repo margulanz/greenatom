@@ -1,7 +1,7 @@
 def create_handlers(callback):
     handlers = []
     for step in range(5):
-        handlers.append(lambda step = step : callback(step)) # Variables in lambda functions should be provided
+        handlers.append(lambda step = step : callback(step))# Переменные в лямбда-функциях должны быть предоставлены
     return handlers
 
 
