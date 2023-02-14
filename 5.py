@@ -40,4 +40,6 @@ def solution(A,B):
         return 1
 
 # Example
-print(solution([1,2],[1,2,4]))
+A = [1,2]
+B = [1,2,3]
+print(solution(A,B))
